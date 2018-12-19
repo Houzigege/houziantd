@@ -1,0 +1,49 @@
+.contentBox{
+  overflow: hidden;
+  display: inline-block;
+}
+
+.inputBox{
+  padding: 10px 0;
+}
+
+.inputBox div{
+  font-weight: bold;
+}
+
+.treeBox{
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  float: left;
+}
+
+.checkbox{
+  padding: 10px 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.Tree{
+  padding: 0 10px;
+  overflow: auto;
+}
+
+.conterBox{
+  margin: 0 10px;
+  width: 42px;
+  float: left;
+  position: relative;
+}
+
+.conterBox .left{
+  position: absolute;
+  top: 45%;
+  left: -4px;
+  padding: 0 10px;
+}
+
+.conterBox .right{
+  position: absolute;
+  top: 55%;
+  right: -4px;
+  padding: 0 10px;
+}

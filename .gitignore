@@ -1,0 +1,7 @@
+.idea/
+node_modules/
+*.iml
+webpack-stats.json
+npm-debug.log
+*.swp
+npm-debug.log.*
