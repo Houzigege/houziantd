@@ -1,5 +1,6 @@
 export Transfer from './Transfer/Transfer';
-export App from './App/App';
+export InputSelect from './InputSelect/InputSelect';
+export SelectWrap from './SelectWrap/SearchWrap';
 
 
 

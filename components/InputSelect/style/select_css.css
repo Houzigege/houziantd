@@ -1,0 +1,95 @@
+
+.select-box-content{
+  position: relative;
+}
+
+.select-box-content .select-box-content-box{
+  overflow: hidden;
+  transition: .5s;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  box-sizing: border-box;
+  z-index: 1050;
+  outline: none;
+}
+
+.select-box-content .select-box-content-ul{
+  width: 100%;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 250px;
+  overflow: auto;
+}
+
+.select-box-content .select-box-content-ul .select-dropdown-menu-item{
+  position: relative;
+  display: block;
+  padding: 0 16px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: background 0.3s ease;
+}
+
+.select-box-content .select-box-content-ul .select-dropdown-menu-item:hover{
+  background-color: #ecf6fd;
+}
+
+.select-box-content-ul .select-dropdown-menu-item-selected, .select-box-content-ul .select-dropdown-menu-item-selected:hover{
+  position: relative;
+  display: block;
+  padding: 0 16px;
+  background-color: #f7f7f7;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: background 0.3s ease;
+}
+.select-box-content .select-arrow, .select-box-content  .select-arrow-v{
+  font-size: 12px;
+  filter: none;
+  font-style: normal;
+  vertical-align: baseline;
+  text-align: center;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  line-height: 1;
+  margin-top: -6px;
+  display: inline-block;
+  transform: scale(0.75) rotate(0deg);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=1, M12=0, M21=0, M22=1)";
+  zoom: 1;
+}
+
+.select-box-content .select-arrow-v:before{
+  display: block;
+  content: '\E837';
+  color:#ccc;
+  transition: transform 0.2s ease;
+  transform: rotate(180deg) scale(1);
+  font-family: "jcicon" !important;
+}
+
+.select-box-content .select-arrow:before{
+  display: block;
+  color:#ccc;
+  content: '\E837';
+  transition: transform 0.2s ease;
+  font-family: "jcicon" !important;
+}
+
